@@ -1,0 +1,83 @@
+## 1. Load Data
+```{r}
+rm(list=ls())
+Yolmo.df <- read.csv("data/YolmoTone-Perception-results.csv", header = TRUE, sep = ",")
+names(Yolmo.df)[1] <- "Condition"
+
+# Convert from wide to long format
+library(tidyr)
+Yolmo.long <- gather(Yolmo.df, key = "Listener", value = "Score", L01:L12)
+#View(Yolmo.wide)
+Yolmo.long$Listener <- as.factor(Yolmo.long$Listener)
+str(Yolmo.long)
+```
+
+## 2. Look at effect of Condition (Carrier1 vs. Isol1 vs. Isol3) on Score
+```{r}
+library(Rmisc)
+#library(multcomp)
+library(ggplot2)
+
+# Summarize by and Condition & Listener
+Yolmo.summ <- summarySE(Yolmo.long, "Score", groupvars = c("Condition", "Listener"), na.rm = TRUE)
+Yolmo.summ
+
+#nrow(Yolmo.long[Yolmo.long$Condition == "Carrier1",])  #Get no. of tokens for each condition
+
+# Boxplot
+boxplot(Score ~ Condition, data = Yolmo.summ, main = "Score by Condition", xlab = "Condition", ylab = "Accuracy Score")
+
+Yolmo.ggplot <- ggplot(Yolmo.summ, aes(x = Condition, y = Score)) +
+  geom_boxplot() +
+  scale_y_continuous(name = "Accuracy score per listener", limits = c(0.5, 1.0)) +
+  #ggtitle("Tone perception accuracy scores") +
+  #theme(plot.title = element_text(hjust = 0.5)) +
+  theme_bw() +
+  theme(text = element_text(size=20)) 
+Yolmo.ggplot
+dev.copy(svg, "figures/YolmoTone-perception_score.svg")
+dev.off()
+```
+
+## 3. Subset by speaker
+```{r}
+
+# Subset by speaker
+Yolmo.KagFem <- subset(Yolmo.df, Speaker == "KagFem")
+Yolmo.KagMal <- subset(Yolmo.df, Speaker == "KagMal")
+Yolmo.YolFem <- subset(Yolmo.df, Speaker == "YolFem")
+
+Yolmo.KagFem.long <- gather(Yolmo.KagFem, key = "Listener", value = "Score", L01:L12)
+Yolmo.KagFem.long$Listener <- as.factor(Yolmo.KagFem.long$Listener)
+Yolmo.KagMal.long <- gather(Yolmo.KagMal, key = "Listener", value = "Score", L01:L12)
+Yolmo.KagMal.long$Listener <- as.factor(Yolmo.KagMal.long$Listener)
+Yolmo.YolFem.long <- gather(Yolmo.YolFem, key = "Listener", value = "Score", L01:L12)
+Yolmo.YolFem.long$Listener <- as.factor(Yolmo.YolFem.long$Listener)
+
+#nrow(Yolmo.YolFem.long[Yolmo.YolFem.long$Condition == "Carrier1",])  #Get no. of tokens for each condition
+
+Yolmo.KagFem.summ <- summarySE(Yolmo.KagFem.long, "Score", groupvars = c("Condition", "Listener"), na.rm = TRUE)
+Yolmo.KagFem.summ
+Yolmo.KagMal.summ <- summarySE(Yolmo.KagMal.long, "Score", groupvars = c("Condition", "Listener"), na.rm = TRUE)
+Yolmo.KagMal.summ
+Yolmo.YolFem.summ <- summarySE(Yolmo.YolFem.long, "Score", groupvars = c("Condition", "Listener"), na.rm = TRUE)
+Yolmo.YolFem.summ
+
+# Boxplots
+boxplot(Score ~ Condition, data = Yolmo.YolFem.summ, main = "Score by Condition", xlab = "Condition", ylab = "Accuracy Score")
+
+Yolmo.ggplot2 <- ggplot(Yolmo.YolFem.summ, aes(x = Condition, y = Score)) +
+  geom_boxplot() +
+  scale_y_continuous(name = "Accuracy Score", limits = c(0.5, 1.0)) +
+  #ggtitle("Tone perception accuracy scores") +
+  #theme(plot.title = element_text(hjust = 0.5)) +
+  theme_bw()
+Yolmo.ggplot2
+dev.copy(png, "figures/YolmoTone-perception_score-YolFem.png")
+dev.off()
+```
+
+## Save RData
+```{r}
+save.image(file="output/YolmoTone-Perception.RData")
+```
