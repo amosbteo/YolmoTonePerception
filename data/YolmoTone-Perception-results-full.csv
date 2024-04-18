@@ -1,0 +1,121 @@
+Condition,Tone,Speaker,Word,L01,L02,L03,L04,L05,L06,L07,L08,L09,L10,L11,L12
+Isol1,Low,YolFem,chew,1,1,1,1,1,1,0,0,1,1,1,1
+Carrier1,Low,YolFem,chew,1,1,1,1,1,1,1,0,1,0,1,1
+Isol3,Low,YolFem,chew,1,0,1,1,0,1,1,0,0,0,1,1
+Isol3,Low,KagMal,chew,1,1,1,1,1,1,1,0,1,1,1,1
+Isol1,Low,KagMal,chew,1,1,0,1,1,1,1,0,1,1,1,1
+Isol1,Low,KagFem,chew,0,1,0,1,1,1,1,0,1,0,0,0
+Isol3,Low,KagFem,chew,1,1,1,1,1,1,1,0,1,0,0,0
+Isol3,Low,YolFem,fall,1,1,1,1,0,1,1,0,1,1,0,1
+Isol1,Low,YolFem,fall,1,1,0,1,1,1,1,1,0,1,0,1
+Isol1,Low,KagMal,fall,1,1,0,0,0,1,1,0,0,1,1,1
+Isol3,Low,KagMal,fall,1,1,0,0,1,1,1,0,0,0,0,1
+Isol1,Low,KagFem,fall,1,1,0,1,1,1,1,0,0,1,0,1
+Carrier1,Low,YolFem,1sg,1,1,1,1,0,1,1,0,1,1,0,1
+Isol3,Low,YolFem,1sg,1,1,1,1,1,1,1,1,0,1,1,1
+Isol1,Low,YolFem,1sg,1,1,1,1,1,1,1,0,0,1,1,1
+Isol3,Low,KagFem,1sg,1,1,1,1,1,1,1,1,1,1,1,1
+Carrier1,Low,KagFem,1sg,1,1,1,1,1,1,1,0,1,0,0,1
+Isol1,Low,KagFem,1sg,1,1,1,1,1,1,1,0,0,NA,1,1
+Isol1,Low,KagMal,1sg,1,1,1,1,1,1,1,1,0,1,1,1
+Carrier1,Low,KagMal,1sg,1,1,1,1,1,1,1,1,1,0,0,1
+Carrier1,Low,KagMal,son,1,1,1,1,1,1,1,1,1,1,1,1
+Isol3,Low,KagMal,son,0,1,1,1,1,1,1,1,1,1,0,1
+Isol3,Low,KagFem,son,1,1,1,1,1,1,1,0,1,1,0,1
+Isol1,Low,KagFem,son,1,1,1,1,1,1,1,1,1,1,1,1
+Carrier1,Low,KagFem,son,1,1,1,1,1,1,0,1,1,1,1,1
+Isol1,Low,KagMal,son,1,1,1,1,1,1,0,1,1,1,1,1
+Isol1,Low,YolFem,son,1,1,1,1,1,1,1,1,1,1,1,1
+Carrier1,Low,YolFem,son,1,1,1,1,1,1,1,1,1,1,1,1
+Isol1,Low,KagFem,pheasant,1,1,1,0,1,1,0,0,0,0,1,0
+Isol1,Low,KagMal,pheasant,1,1,1,1,1,1,0,0,1,1,1,1
+Carrier1,Low,KagMal,pheasant,1,1,1,1,1,1,0,1,1,1,1,1
+Isol3,Low,KagMal,pheasant,1,1,1,1,1,1,0,0,1,1,1,1
+Carrier1,Low,KagFem,pheasant,1,1,1,1,1,1,0,1,1,1,1,1
+Isol3,Low,KagFem,pheasant,0,1,0,0,1,1,0,0,0,1,1,1
+Isol1,Low,KagMal,copper,1,1,1,1,1,1,0,1,1,1,1,1
+Isol1,Low,YolFem,copper,1,1,1,1,1,1,0,0,1,1,1,1
+Carrier1,Low,KagFem,copper,1,1,1,1,1,1,0,1,1,1,1,1
+Isol3,Low,KagFem,copper,1,1,0,0,0,1,0,0,0,0,0,0
+Isol1,Low,KagFem,copper,1,1,1,1,1,1,0,1,1,1,1,1
+Carrier1,Low,KagMal,copper,1,1,1,1,1,1,0,1,1,1,1,1
+Isol3,Low,KagMal,copper,1,1,1,1,1,1,0,1,1,1,1,1
+Carrier1,Low,YolFem,copper,1,1,1,1,1,1,0,1,1,1,1,1
+Isol1,Low,YolFem,farm,1,1,1,1,1,1,1,1,0,1,1,1
+Isol3,Low,YolFem,farm,1,1,0,1,1,1,1,1,0,0,1,1
+Carrier1,Low,YolFem,farm,1,0,1,1,1,1,1,1,1,1,1,1
+Carrier1,Low,KagMal,farm,1,1,1,1,1,1,1,1,1,1,1,1
+Isol1,Low,KagMal,farm,1,1,1,1,1,1,1,1,1,1,1,1
+Isol1,Low,KagFem,farm,1,1,1,1,1,1,1,1,0,1,1,1
+Isol3,Low,KagFem,farm,1,1,1,1,1,1,1,1,0,1,1,0
+Carrier1,Low,KagFem,farm,1,1,1,1,1,1,1,1,1,1,1,1
+Isol3,Low,YolFem,stone,1,1,1,1,1,1,0,1,1,1,1,0
+Isol1,Low,YolFem,stone,1,1,1,1,1,1,0,1,1,1,1,1
+Isol1,Low,KagFem,stone,1,1,1,1,1,1,0,1,1,1,1,1
+Carrier1,Low,KagFem,stone,1,1,1,1,1,1,1,1,1,1,1,1
+Isol3,Low,KagFem,stone,1,1,0,0,1,1,1,1,1,1,0,0
+Carrier1,Low,YolFem,stone,1,1,0,1,1,0,0,1,1,1,1,1
+Carrier1,High,YolFem,rub,1,1,1,1,1,0,0,1,0,1,1,1
+Isol1,High,YolFem,rub,0,1,1,0,0,0,0,1,1,0,0,1
+Isol3,High,YolFem,rub,0,1,1,0,1,0,0,1,1,1,0,1
+Isol1,High,KagMal,rub,0,0,1,0,0,0,0,1,1,1,1,1
+Isol3,High,KagMal,rub,0,0,1,1,1,0,0,1,1,1,1,1
+Isol3,High,KagFem,rub,0,0,0,0,0,0,0,1,0,0,1,1
+Isol1,High,KagFem,rub,0,0,1,0,0,0,0,1,0,1,1,1
+Carrier1,High,KagFem,five,0,1,1,0,1,1,0,1,0,1,1,1
+Isol1,High,KagFem,five,0,0,0,0,0,0,0,1,1,0,1,1
+Isol1,High,YolFem,five,0,0,0,0,0,0,0,1,1,0,1,1
+Isol3,High,KagFem,five,0,0,0,1,0,0,0,1,1,0,1,1
+Carrier1,High,YolFem,five,0,0,0,1,1,0,0,1,1,1,1,1
+Isol3,High,YolFem,five,0,0,1,1,1,0,0,1,1,0,1,1
+Carrier1,High,YolFem,scatter,1,0,0,0,1,0,1,1,1,1,1,1
+Isol3,High,YolFem,scatter,0,0,0,0,0,0,0,0,1,1,1,1
+Isol1,High,YolFem,scatter,0,0,0,1,0,0,0,1,1,1,1,1
+Isol1,High,KagMal,scatter,1,0,1,1,1,0,1,1,1,1,1,1
+Isol3,High,KagMal,scatter,0,0,1,0,1,1,0,1,1,1,1,1
+Carrier1,High,KagFem,scatter,0,0,0,0,1,0,1,1,1,1,1,1
+Isol3,High,KagFem,scatter,0,0,1,1,1,0,0,1,1,1,1,1
+Isol1,High,KagFem,scatter,0,0,1,1,1,0,1,1,1,1,1,1
+Isol3,High,YolFem,body hair,1,1,1,1,1,1,0,1,0,1,1,1
+Carrier1,High,YolFem,body hair,0,1,1,1,0,0,1,1,0,1,1,1
+Isol1,High,YolFem,body hair,1,1,1,1,1,1,1,1,1,1,1,1
+Isol3,High,KagFem,body hair,1,1,1,1,0,1,1,1,0,1,1,1
+Carrier1,High,KagFem,body hair,0,0,1,1,0,0,1,0,0,1,1,1
+Isol1,High,KagFem,body hair,1,1,0,1,0,0,0,1,0,1,1,0
+Isol1,High,KagMal,body hair,1,0,0,1,1,0,1,0,0,0,1,1
+Isol3,High,KagMal,body hair,0,1,1,1,1,0,0,1,0,0,1,1
+Carrier1,High,KagMal,body hair,1,1,1,1,0,1,1,1,0,1,1,1
+Carrier1,High,KagMal,hair on head,1,1,1,1,1,1,1,1,1,1,1,1
+Isol1,High,KagMal,hair on head,1,1,1,1,1,1,1,1,1,1,1,1
+Isol3,High,KagFem,hair on head,0,1,1,1,1,1,1,1,1,1,0,1
+Isol1,High,KagFem,hair on head,1,1,1,1,1,1,1,1,1,1,1,1
+Carrier1,High,KagFem,hair on head,1,1,1,1,1,1,1,1,1,1,1,1
+Isol3,High,KagMal,hair on head,1,1,1,1,1,1,0,1,1,1,1,1
+Isol3,High,YolFem,hair on head,1,1,1,1,1,1,1,1,1,1,1,1
+Isol1,High,YolFem,hair on head,1,1,1,1,1,1,1,1,1,1,1,1
+Carrier1,High,YolFem,hair on head,1,1,1,1,1,1,1,1,1,1,1,1
+Isol1,High,KagFem,incense,0,1,1,1,1,0,1,1,1,1,1,1
+Carrier1,High,KagFem,incense,1,1,1,0,1,1,1,1,0,1,1,1
+Isol3,High,KagFem,incense,1,0,0,1,1,1,1,1,1,1,1,1
+Carrier1,High,YolFem,incense,1,1,0,1,1,0,1,1,1,1,1,1
+Carrier1,High,KagMal,incense,1,1,1,1,1,1,0,1,0,1,1,1
+Isol3,High,KagMal,incense,0,1,1,1,1,1,1,1,0,1,1,1
+Isol3,High,YolFem,incense,1,1,1,1,1,1,1,1,1,1,1,1
+Isol1,High,KagMal,incense,0,0,1,0,0,0,1,0,0,0,0,1
+Isol1,High,YolFem,incense,1,1,1,1,1,1,1,1,1,1,1,1
+Isol1,High,YolFem,wood,0,1,1,1,1,1,0,1,1,1,1,1
+Carrier1,High,YolFem,wood,1,1,1,1,1,1,0,1,1,1,1,1
+Carrier1,High,KagMal,wood,1,0,1,0,1,1,1,1,1,1,1,1
+Isol1,High,KagFem,wood,1,1,1,1,1,1,0,1,1,1,1,1
+Isol1,High,KagMal,wood,1,1,1,1,1,1,0,1,1,1,1,1
+Isol3,High,KagFem,wood,1,1,1,1,1,1,1,1,1,1,1,1
+Carrier1,High,KagFem,wood,1,1,1,1,1,1,0,1,1,1,1,1
+Isol1,High,YolFem,cooked rice,1,1,0,1,1,1,1,1,1,1,1,1
+Isol3,High,KagMal,cooked rice,1,1,1,1,0,1,1,1,0,1,0,1
+Isol3,High,KagFem,cooked rice,1,1,1,1,1,1,1,1,1,1,1,1
+Isol1,High,KagFem,cooked rice,1,1,1,1,1,1,1,1,0,1,0,1
+Carrier1,High,YolFem,cooked rice,1,1,1,1,1,1,1,1,1,1,1,1
+Isol1,High,KagMal,cooked rice,1,1,1,0,1,1,1,1,1,1,1,1
+Isol3,High,YolFem,cooked rice,1,1,1,1,1,1,1,1,1,1,1,1
+Carrier1,High,KagFem,cooked rice,1,1,1,1,1,1,1,1,1,1,1,1
+Carrier1,High,KagMal,cooked rice,1,1,1,1,1,1,1,1,1,1,1,1
